@@ -18,6 +18,16 @@ import { Component } from '@angular/core';
               routerLink="/manager/receipts" routerLinkActive="active-link" >
               Receipt Lookup
             </button>
+            <button type="button" class="btn btn-light" 
+              routerLink="/inventory" routerLinkActive="active-link" >
+              Inventory
+              <i class="fa fa-list"></i>
+            </button>
+            <button type="button" class="btn btn-light" 
+              routerLink="/pos" routerLinkActive="active-link" >
+              POS
+              <i class="fa fa-cart-shopping"></i>
+            </button>
           </div>
         </nav>
         <router-outlet></router-outlet>
