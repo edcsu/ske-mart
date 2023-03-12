@@ -19,7 +19,7 @@ import { Component } from '@angular/core';
               Receipt Lookup
             </button>
             <button type="button" class="btn btn-light" 
-              routerLink="/Inventory" routerLinkActive="active-link" >
+              routerLink="/inventory" routerLinkActive="active-link" >
               Inventory
               <i class="fa fa-list"></i>
             </button>

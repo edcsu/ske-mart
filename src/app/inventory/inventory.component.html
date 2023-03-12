@@ -1,0 +1,23 @@
+<div class="container">
+    <nav class="navbar navbar-expand-lg bg-primary my-0">
+      <div class="container">
+        <button type="button" class="btn btn-light" 
+          routerLink="/inventory/home" routerLinkActive="active-link" >
+          Inventory Dashboard
+        </button>
+        <button type="button" class="btn btn-light" 
+          routerLink="/inventory/stock-entry" routerLinkActive="active-link" >
+          Stock Entry
+        </button>
+        <button type="button" class="btn btn-light" 
+          routerLink="/inventory/products" routerLinkActive="active-link" >
+          Products
+        </button>
+        <button type="button" class="btn btn-light" 
+          routerLink="/inventory/categories" routerLinkActive="active-link" >
+          Categories
+        </button>
+      </div>
+    </nav>
+    <router-outlet></router-outlet>
+</div>
