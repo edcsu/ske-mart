@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-manager',
   template: `
       <div class="container">
-        <nav class="navbar navbar-expand-lg bg-light my-4">
+        <nav class="navbar navbar-expand-lg bg-primary my-0">
           <div class="container">
             <button type="button" class="btn btn-light" 
               routerLink="/manager/home" routerLinkActive="active-link" >
